@@ -1,15 +1,16 @@
 title: Programa de Onboarding
-tagline: A Jekyll template for course websites
 description: Programa de Onboarding para nuevos colaboradores en Ethereum Costa Rica
 author: Onboarding ETH CR
-baseurl: /Prueba-de-Programa
-url: https://onboardingethcr.github.io
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
-theme: just-the-class
+url: "https://onboardingethcr.github.io"
+baseurl: "/Prueba-de-Programa"
+
+remote_theme: kevinlin1/just-the-class
+
 repository: OnboardingETHCR/Prueba-de-Programa
 permalink: pretty
-footer_content:
+
+footer_content: "© 2025 Ethereum Costa Rica"
 
 collections:
   staffers:
