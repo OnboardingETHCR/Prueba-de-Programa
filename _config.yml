@@ -1,5 +1,5 @@
 title: Programa de Onboarding
-description: Programa de Onboarding para nuevos colaboradores en Ethereum Costa Rica
+description: Curso de introducción a Blockchain y Web3
 author: Onboarding ETH CR
 
 url: "https://onboardingethcr.github.io"
@@ -16,35 +16,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  staffers:
-  modules:
-  schedules:
-  announcements:
 
-defaults:
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-      height: 300
-      subpath: '/assets/images/'
-      width: 300
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+defaults: []
 
 compress_html:
   clippings: all
@@ -57,4 +30,3 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
-  
