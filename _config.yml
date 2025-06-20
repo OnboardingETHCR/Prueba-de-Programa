@@ -1,9 +1,3 @@
----
-layout: home
-title: Programa de Onboarding
-nav_order: 1
----
-
 title: Programa de Onboarding
 description: Programa de Onboarding para nuevos colaboradores en Ethereum Costa Rica
 author: Onboarding ETH CR
@@ -19,10 +13,14 @@ permalink: pretty
 footer_content: "© 2025 Ethereum Costa Rica"
 
 collections:
+  pages:
+    output: true
+    permalink: /:path/
   staffers:
   modules:
   schedules:
   announcements:
+
 defaults:
   - scope:
       path: ''
@@ -59,4 +57,3 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
-
